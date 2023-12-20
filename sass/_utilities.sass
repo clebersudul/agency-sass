@@ -29,6 +29,18 @@
   margin-top: 2rem
   text-align: center
 
+%center-bg
+  background-size: cover
+  background-position: center
+
+%card-hover
+  .job-card-title, .job-card-cover, .job-card-descrption
+    opacity: 0
+
+  &:hover
+    .job-card-title, .job-card-cover, .job-card-descrption
+      opacity: 1
+
 // buttons
 @mixin button
   .btn
